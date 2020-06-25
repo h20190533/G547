@@ -19,7 +19,7 @@ step 6: check wether your usb is using your driver or not $ sudo fdisk -l
 
 step 7: make folder inside media directory  $ sudo mkdir /media/shivamusb 
 
-step 8: use mount command for accessing pendrive  $ sudo mount -t vfat /dev/USBDRIVER /media/shivamusb
+step 8: use mount command for accessing pendrive  $ sudo mount -t vfat /dev/USERDRIVER /media/shivamusb
 
 step 9: go inside root  $ sudo -i
 
